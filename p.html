@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="bootstrap-5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .progress {
+            height: 35px;
+            border-radius: 40px;
+            font-size: 20px;
+            transition: all 0.5s ease;
+        }
+
+        .progress:hover {
+            transform: scale(1.1);
+        }
+
+        .card {
+            transition: all 0.5s ease;
+        }
+
+        .card img {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+            box-shadow: 2px black;
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        .nav-brand:hover {
+            transition: 00.5s ease;
+            border-bottom: 2px solid yellow;
+        }
+
+        .nav-link:hover {
+            transition: 00.5s ease;
+            border-bottom: 2px solid yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="navbar navbar-expand-sm bg-dark " id="navbar">
+        <div class="container-fluid">
+            <a href="" class="nav-brand fw-bold text-light" style="text-decoration: none; ">
+                <h4 style="font-size: 30px;">Pallavi</h4>
+            </a>
+            <div class="collapse nav navbar-collapse" id="brand">
+                <div class="container">
+                    <ul class="nav  navbar-nav justify-content-end">
+                        <li class="nav-item"><a href="" style="font-size: 20px;" class="nav-link text-light">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="#container1" style="font-size: 20px;"
+                                class="nav-link text-light">About</a>
+                        </li>
+
+                        <li class="nav-item"><a href="#container2" style="font-size: 20px;"
+                                class="nav-link text-light">Skill</a>
+                        </li>
+
+                        <li class="nav-item"><a href="#container4" style="font-size: 20px;"
+                                class="nav-link text-light">Service</a>
+                        </li>
+
+                        <li class="nav-item"><a href="#container5" style="font-size: 20px;"
+                                class="nav-link text-light">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row align-items-start">
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 mt-3">
+                <img src="p.png" width="68%" height="auto" alt="" style="border: 1px solid black; border-radius: 60%;">
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-5" style="padding: 40px;">
+                <h3>I'M PALLAVI</h3>
+                <h1 class="text-warning fw-bold"> WEB DEVELOPER</h1>
+                <h4>and</h4>
+                <h2 class=" display-5 fw-normal">WEB DESIGNER</h2>
+                <button class="btn btn-outline-dark text-warning m-1 fw-bold"
+                    style="text-decoration: none; font-size: 20px; ">Hire Me</button>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container" id="container1">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <h1 class="fw-bold text-center">About Me</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6  m-auto">
+                <h1 class="fw-bold text-center">WEB DEVELOPER!!</h1>
+                <P class=" mb-2" style="font-size: 19px;">Hey!!
+                    My name is PALLAVI I'm a full stack Web Developer. I help people and organizations grows by creating
+                    a beautiful designs. I'm a problem solving designer with a sharp focus on impact.
+                </P>
+                <h4> Are you looking for a desigener to build your brand and grow your bussiness?
+                    Lets shake Hands with me</h4>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6  p-5">
+                <img src="m.3.jpg" width="100%" height="auto" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container my-5 py-5" id="container2">
+        <div class="row mb-5">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <h1 class="fw-bold text-center">Skills</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <h2 class="fw-bold text-center"> My Skills</h2>
+
+                <p class="lead text-center">
+                    HTML CSS Bootstrap Javascript Jquerry PHP
+                </p>
+            </div>
+            <div class=" col-12 col-sm-12 col-md-5 col-lg-5 d-flex flex-column justify-content-center">
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100"
+                        aria-valuemin="0" aria-valuemax="100">Html</div>
+                </div>
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 100%" aria-valuenow="100"
+                        aria-valuemin="0" aria-valuemax="100">Css</div>
+                </div>
+
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100"
+                        aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
+                </div>
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100">Javascript</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container justify-content-center p-3" id="container3">
+        <div class="row  ">
+            <h2 class="fw-bold text-center">My Work</h2>
+
+            <hr>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+                <a href="template2.html"> <img src="h.17.jpg" alt="" style="height: auto; width: 80%;"></a>
+
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+                <a href="template22.html"><img src="h.25.jpg" alt="" style="height: auto; width: 80%;"></a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container justify-content-center" id="container4">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <h1 class="fw-bold text-center">Services</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <img src="w.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Frontend Developer</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <img src="w3.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Backend Developer</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <img src="w1.jpg" alt="">
+                    <div class="card-body ">
+                        <h3 class="text-center">Database management</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-warning justify-content-center" id="container5" style="margin-top: 23px;">
+        <div class="row">
+            <div class="col-12 m-auto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center align-self-center text-dark m-auto ">
+                            <h1 class="title" style="margin-top: 100px;">Let's Get In Touch!</h1>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center  text-dark m-auto">
+                            <p>Ready to start your next project with us? Send us a messages and we will get back to you
+                                as soon as
+                                possible!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-auto">
+                            <label for="name" class="form-label"></label>
+                            <input type="Full-name" class="form-control" id="name" placeholder="Full name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-auto">
+                            <label for="email" class="form-label"></label>
+                            <input type="email" class="form-control" id="email" placeholder="Email address">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-auto">
+                            <label for="phone" class="form-label"></label>
+                            <input type="phone-munber" class="form-control" id="Phone" placeholder="Phone number">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-auto">
+                            <div class="mb-3">
+                                <label for="message" class="form-label"></label>
+                                <textarea class="form-control" id="message" placeholder="Message" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-auto p-3 text-light btn"
+                            style="background: rgb(25, 26, 27); border-radius: 30px; width: 150px; height: 60px;">
+                            <b>SUMBIT</b>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card-footer mt-3" id="container6">
+        <h4 class=" text-center">Follow For More</h4>
+        <div style="font-size: 19px; text-align: center;">
+            <i class="fa-brands fa-github" data-bs-toggle="tooltip" data-bs-placement="bottom" title="github"></i>
+            <i class="fa-brands fa-linkedin" data-bs-toggle="tooltip" data-bs-placement="bottom" title="linkedin"></i>
+            <i class="fab fa-instagram" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram"></i>
+            <i class="fab fa-facebook" data-bs-toggle="tooltip" data-bs-placement="bottom" title="facebook"></i>
+            <i class="fa-brands fa-twitter-square" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="twitter"></i>
+
+
+        </div>
+    </div>
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.getElement.scrollTop > 20) {
+                document.getElementById("navbar").style.backgroundColor = "white";
+            }
+            else {
+                document.getElementById("navbar").style.backgroundColor = "transparent";
+            }
+        }
+    </script>
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+
+</html>
