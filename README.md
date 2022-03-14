@@ -1,1 +1,1 @@
-https://pallavik12.github.io/
+https://github.com/pallavik12/pallavik12.github.io
